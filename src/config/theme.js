@@ -1,0 +1,58 @@
+export const theme = (colorScheme = 'light') => ({
+  colorScheme: colorScheme,
+  focusRing: 'never',
+  cursorType: 'pointer',
+  colors: {
+    'mountain-meadow': [
+      '#f0fdf9',
+      '#cef9ec',
+      '#9cf3da',
+      '#63e5c5',
+      '#33ceac',
+      '#1bb899',
+      '#128f79',
+      '#137263',
+      '#145b51',
+      '#154c43',
+    ],
+    matisse: [
+      '#effbfc',
+      '#d5f3f8',
+      '#b1e6f0',
+      '#7ad2e6',
+      '#3db5d3',
+      '#2199b9',
+      '#1d7493',
+      '#1f637f',
+      '#225268',
+      '#204559',
+    ],
+    'chathams-blue': [
+      '#eef8ff',
+      '#daefff',
+      '#bce4ff',
+      '#8fd4ff',
+      '#5abaff',
+      '#339bfe',
+      '#1d7cf3',
+      '#1565e0',
+      '#1852b5',
+      '#184386',
+    ],
+    'oxford-blue': [
+      '#f2f7f9',
+      '#dfeaee',
+      '#c3d6de',
+      '#99b8c7',
+      '#6792a9',
+      '#4c768e',
+      '#426378',
+      '#3a5264',
+      '#364754',
+      '#313e4a',
+    ],
+    },
+  primaryColor: 'mountain-meadow'
+});
+
+
